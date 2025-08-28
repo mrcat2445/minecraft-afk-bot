@@ -278,6 +278,5 @@ app.listen(config.web.port, () => {
     logger.info(`[INFO] Web server running on http://localhost:${config.web.port}!`);
 });
 
-// Initial bot
-creation
+// Initial bot creation
 createBot();
