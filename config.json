@@ -1,0 +1,59 @@
+{ 
+  "server": {
+    "host": "localhost",
+    "// comment": "Don't write server port in fleid 'host'",
+    "port": 25565,
+    "version": "1.16.5"
+  },
+  "auth": {
+    "username": "AFKBot",
+    "isCracked": true,
+    "// comment": "Write true in fleid 'isCracked' for offline-mode servers, false - for online-mode servers",
+    "enabled": true,
+    "inGamePassword": "your_strong_password_here"
+  },
+  "afk": {
+    "enabled": true,
+    "minDelaySeconds": 15,
+    "maxDelaySeconds": 30,
+    "returnToOrigin": true,
+    "// comment": "Do bot will return same position after moving? Write true/false in 'returnToOrigin'",
+    "jumpEnabled": true,
+    "minJumpDelaySeconds": 5,
+    "maxJumpDelaySeconds": 10
+  },
+  "coords": {
+    "enabled": false,
+    "// comment": "Do bot will move target position after spawn? Write true/false in 'enabled'",
+    "x": 100,
+    "y": 64,
+    "z": 100,
+    "tolerance": 2
+  },
+  "chat": {
+    "enabled": true,
+    "// comment": "Do bot will write in chat? Write true/false in 'enabled'",
+    "messages": [
+      "AFK bot is online!",
+      "Still here, just AFK.",
+      "Greetings from the AFK realm!",
+      "Having fun being AFK."
+    ],
+    "minDelaySeconds": 60,
+    "maxDelaySeconds": 180
+  },
+  "reconnect": {
+    "onKickDelaySeconds": 10,
+    "onCrashDelaySeconds": 15,
+    "autoRespawnDelaySeconds": 5
+  },
+  "periodicReconnect": {
+    "enabled": true,
+    "// comment": "Do bot will reconnect server with some delay? Write true/false in 'enabled'",
+    "minDelayMinutes": 10,
+    "maxDelayMinutes": 15
+  },
+  "web": {
+    "port": 8000
+  }
+}

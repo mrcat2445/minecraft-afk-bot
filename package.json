@@ -1,0 +1,24 @@
+{
+  "name": "minecraft-afk-bot",
+  "version": "1.0.0",
+  "description": "Mineflayer AFK Bot with configurable actions and web status.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "mineflayer",
+    "minecraft",
+    "afk",
+    "bot"
+  ],
+  "author": "mrcat2445",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mineflayer": "^4.13.0",
+    "mineflayer-pathfinder": "^2.3.1",
+    "vec3": "^0.1.7",
+    "winston": "^3.11.0"
+  }
+}
