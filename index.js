@@ -189,7 +189,7 @@ function startAfkLoop() {
         logger.debug("[DEBUG] Starting AFK movement sequence.");
         const directions = ['forward', 'back', 'left', 'right'];
         const randomDir = directions[Math.floor(Math.random() * directions.length)];
-        const moveDuration = 1000; // Move for 1 second
+        const moveDuration = config.afk.moveDuration; // Move for ? ms (1s = 1000ms)
 
         logger.info(`[INFO] Moving ${randomDir}!`);
         bot.setControlState(randomDir, true);

@@ -26,6 +26,7 @@
     "enabled": true,
     "minDelaySeconds": 15,
     "maxDelaySeconds": 30,
+    "moveDuration": 1000,
     "returnToOrigin": true,
     "jumpEnabled": true,
     "minJumpDelaySeconds": 5,
@@ -78,6 +79,7 @@
 ### afk: AFK movement settings.
     *   enabled: Whether AFK movements are enabled.
     *   minDelaySeconds, maxDelaySeconds: Minimum and maximum delay between movements.
+    *   moveDuration: How long (in milliseconds) should the bot move in a random direction. (1000 milliseconds = 1 second)
     *   returnToOrigin: Whether the bot should return to its original position after moving.
     *   jumpEnabled: Whether the bot should jump.
     *   minJumpDelaySeconds, maxJumpDelaySeconds: Delay between jumps.

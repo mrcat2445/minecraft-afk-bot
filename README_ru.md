@@ -19,12 +19,14 @@
   "auth": {
     "username": "AFKBot",
     "isCracked": true,
+    "enabled": true,
     "inGamePassword": "your_strong_password_here"
   },
   "afk": {
     "enabled": true,
     "minDelaySeconds": 15,
     "maxDelaySeconds": 30,
+    "moveDuration": 1000,
     "returnToOrigin": true,
     "jumpEnabled": true,
     "minJumpDelaySeconds": 5,
@@ -76,6 +78,7 @@
 ###  afk: Настройки AFK-движений.
     *   enabled: Включены ли AFK-движения.
     *   minDelaySeconds, maxDelaySeconds: Минимальная и максимальная задержка между движениями.
+    *   moveDuration: Сколько времени (в миллисекундах) бот должен двигаться в случайном направлении. (1000 миллисекунд = 1 секунда)
     *   returnToOrigin: Должен ли бот возвращаться на исходную позицию после движения.
     *   jumpEnabled: Должен ли бот прыгать.
     *   minJumpDelaySeconds, maxJumpDelaySeconds: Задержка между прыжками.

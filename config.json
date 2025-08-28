@@ -16,8 +16,10 @@
     "enabled": true,
     "minDelaySeconds": 15,
     "maxDelaySeconds": 30,
+    "moveDuration": 1000,
+    "// comment": "'moveDuration' sets time (in milliseconds) which afk bot will move (1000 milliseconds = 1 second)",
     "returnToOrigin": true,
-    "// comment": "Do bot will return same position after moving? Write true/false in 'returnToOrigin'",
+    "// comment 2": "Do bot will return same position after moving? Write true/false in 'returnToOrigin'",
     "jumpEnabled": true,
     "minJumpDelaySeconds": 5,
     "maxJumpDelaySeconds": 10
